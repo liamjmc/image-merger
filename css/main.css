@@ -1,0 +1,44 @@
+
+
+/* ==========================================================================
+   TLT's custom styles
+   ========================================================================== */
+
+.header{
+    text-align: center;
+}
+
+.image-upload-row{
+    text-align: center;
+    padding:40px;
+}
+
+.image-upload-row input{
+    margin: 0 auto;
+}
+
+.canvas-row{
+    text-align: center;
+}
+
+.icon-row {
+  letter-spacing: -4px;
+  font-size: 0;
+}
+
+.icon-row img{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
