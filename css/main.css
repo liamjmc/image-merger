@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
    TLT's custom styles
    ========================================================================== */
@@ -8,17 +6,8 @@
     text-align: center;
 }
 
-.image-upload-row{
-    text-align: center;
-    padding:40px;
-}
-
-.image-upload-row input{
-    margin: 0 auto;
-}
-
-.canvas-row{
-    text-align: center;
+.actions {
+  display: none;
 }
 
 .icon-row {
@@ -31,14 +20,42 @@
     display: none;
 }
 
+/* Temp styles just to see canvas area */
+.canvas-wrap {
+  border: 1px solid #aaa;
+  display: inline-block;
+  position: relative;
+}
 
+/* Upload form styles */
+.upload {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
 
+.upload__trigger {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  margin-bottom: 0;
+}
 
+.upload__inner {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.upload__text {
+  display: block;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
 
-
-
-
-
-
-
+.upload__input {
+  visibility: hidden;
+}
